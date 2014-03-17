@@ -2,7 +2,7 @@ Question 1 Bussiness Rules
 ==========================
 
   0. The Department Employs Employees.
-  1. The Department Manages Employees.
+  1. Employees Manages The Department.
   2. Employees Have Salaries.
   3. Employees Completes Invoices.
   4. Products Appear on Lines.
