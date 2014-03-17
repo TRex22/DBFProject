@@ -1,12 +1,12 @@
 Question 1 Bussiness Rules
 ==========================
 
-The Department Employs Employees.
-The Department Manages Employees.
-Employees Have Salaries.
-Employees Completes Invoices.
-Products Appear on Lines.
-Customers Places Invoices.
-Brands Includes Products.
-Products Provided By Supplies.
-Vendors Provides Supplies. 
+  0. The Department Employs Employees.
+  1. The Department Manages Employees.
+  2. Employees Have Salaries.
+  3. Employees Completes Invoices.
+  4. Products Appear on Lines.
+  5. Customers Places Invoices.
+  6. Brands Includes Products.
+  7. Products Provided By Supplies.
+  8. Vendors Provides Supplies. 
