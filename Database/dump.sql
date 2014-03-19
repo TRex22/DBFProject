@@ -104,7 +104,7 @@ CREATE TABLE `LGDEPARTMENT` (
 
 LOCK TABLES `LGDEPARTMENT` WRITE;
 /*!40000 ALTER TABLE `LGDEPARTMENT` DISABLE KEYS */;
-INSERT INTO `LGDEPARTMENT` VALUES (200,'Admin','500','0111234567',83745),(300,'Sales','250','0117852369',84039),(400,'Marketing','280','0117854589',83649),(500,'Finance','210','0117858989',83677);
+INSERT INTO `LGDEPARTMENT` VALUES (200,'Admin','500','0111234567',83677),(300,'Sales','250','0117852369',83745),(400,'Marketing','280','0117854589',84039),(500,'Finance','210','0117858989',83649);
 /*!40000 ALTER TABLE `LGDEPARTMENT` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -122,7 +122,7 @@ CREATE TABLE `LGEMPLOYEE` (
   `Emp_Email` varchar(30) NOT NULL,
   `Emp_Phone` varchar(10) NOT NULL,
   `Emp_Hiredate` date NOT NULL,
-  `Emp_Title` varchar(10) NOT NULL,
+  `Emp_Title` varchar(30) NOT NULL,
   `Emp_Comm` double(2,2) NOT NULL,
   `Dept_Num` int(3) DEFAULT NULL,
   PRIMARY KEY (`Emp_Num`),
@@ -138,7 +138,7 @@ CREATE TABLE `LGEMPLOYEE` (
 
 LOCK TABLES `LGEMPLOYEE` WRITE;
 /*!40000 ALTER TABLE `LGEMPLOYEE` DISABLE KEYS */;
-INSERT INTO `LGEMPLOYEE` VALUES (12345,'John','Doe','jd@gmail.com','0721234567','2014-03-17','Baus',0.10,200),(83649,'Luke','Skywalker','lukesw@hotmail.com','0834567896','2012-12-05','Clerk1',0.10,500),(83677,'Mace','Windu','mastermace@hotmail.com','0831234568','2011-06-25','Manager',0.60,200),(83745,'Obi Wan','Kenobi','obk@hotmail.com','0837458965','2010-02-05','Senior Ass',0.23,300),(84039,'Annakin','Skywalker','annyskywalker@hotmail.com','0837451215','2010-08-05','Junior Ass',0.23,400),(84564,'Master','Yoda','yodamaster@hotmail.com','0827854123','2010-06-25','Senior Ass',0.60,300);
+INSERT INTO `LGEMPLOYEE` VALUES (12345,'John','Doe','jd@gmail.com','0721234567','2014-03-17','Senior Associate',0.10,200),(83649,'Luke','Skywalker','lukesw@hotmail.com','0834567896','2012-12-05','Manager',0.10,500),(83677,'Mace','Windu','mastermace@hotmail.com','0831234568','2011-06-25','Manager',0.60,200),(83745,'Obi Wan','Kenobi','obk@hotmail.com','0837458965','2010-02-05','Manager',0.23,300),(84039,'Annakin','Skywalker','annyskywalker@hotmail.com','0837451215','2010-08-05','Manager',0.23,400),(84564,'Master','Yoda','yodamaster@hotmail.com','0827854123','2010-06-25','Senior Associate',0.60,300),(84756,'Princess','Leiya','PLeiya@hotmail.com','0832547896','2012-05-14','Junior Associate',0.20,400),(84789,'Han','Solo','flyingsolo@hotmail.com','0832544596','2012-06-14','Junior Associate',0.10,500);
 /*!40000 ALTER TABLE `LGEMPLOYEE` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -336,4 +336,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-03-18 14:48:17
+-- Dump completed on 2014-03-19 18:46:33
