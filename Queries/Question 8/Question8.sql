@@ -1,4 +1,4 @@
-SELECT DISTINCT Cust_Fname, Cust_Lname, Cust_Street, Cust_City, Cust_Province, Cust_Zip
-FROM LGCUSTOMER, LGBRAND, LGINVOICE
-WHERE Brand_Name like 'Tatooine Dust' AND Prod_Type like 'Top Coat' AND (INV_Date BETWEEN '2011-07-15' AND '2013-07-31')
-ORDER BY Cust_State, Cust_Lname, Cust_Fname;
+SELECT DISTINCT LGCUSTOMER.Cust_Fname, LGCUSTOMER.Cust_Lname, LGCUSTOMER.Cust_Street, LGCUSTOMER.Cust_City, LGCUSTOMER.Cust_Province, LGCUSTOMER.Cust_Zip
+FROM LGCUSTOMER, LGBRAND, LGINVOICE, LGPRODUCT
+WHERE LGBRAND.Brand_Name like 'Tatooine Dust' AND LGPRODUCT.Prod_Category like 'Top Coat' AND (LGINVOICE.INV_Date BETWEEN '2011-07-15' AND '2013-07-31')
+ORDER BY LGCUSTOMER.Cust_Province, LGCUSTOMER.Cust_Lname, LGCUSTOMER.Cust_Fname;
