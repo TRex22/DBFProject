@@ -1,0 +1,4 @@
+SELECT Brand_ID, COUNT(*) AS 'Amount'
+FROM LGBRAND
+GROUP BY Brand_ID
+ORDER BY Brand_ID DESC;
