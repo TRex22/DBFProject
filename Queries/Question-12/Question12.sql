@@ -1,4 +1,3 @@
---Display number of products within each base and type combination
-SELECT DISTINCT COUNT(*) AS 'Products'
+SELECT  Prod_Base, Prod_Type, COUNT(*) AS 'Amount'
 FROM LGPRODUCT
-GROUP BY Prod_Base AND Prod_Type;
+GROUP BY Prod_Base, Prod_Type;
