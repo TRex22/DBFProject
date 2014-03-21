@@ -1,0 +1,3 @@
+TODOs are found in github issues
+
+Please close the issues when you are done, or open new ones if you have any problems
