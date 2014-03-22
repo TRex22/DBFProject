@@ -1,3 +1,4 @@
+#Instead of having two nested queries a HAVING may work better
 SELECT Brand_Id, Brand_Name, Brand_Type, MAX(Average_Price_Of_Products) AS 'Max Average Price of Products'
 FROM (
 	SELECT LGBRAND.Brand_Id, LGBRAND.Brand_Name, LGBRAND.Brand_Type, AVG(LGPRODUCT.Prod_Price) AS 'Average_Price_Of_Products'
