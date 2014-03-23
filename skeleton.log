@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.10)  23 MAR 2014 20:06
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.10)  23 MAR 2014 20:51
 entering extended mode
  %&-line parsing enabled.
 **skeleton.tex
@@ -103,393 +103,350 @@ LaTeX Font Info:    ... okay on input line 9.
 \everyMPtoPDFconversion=\toks17
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 10.
+(Font)              <12> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 10.
+(Font)              <8> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 10.
- <Queries/Question_4/Q4_screenshot.jpg, id=1, 524.71031pt x 107.65219pt>
-File: Queries/Question_4/Q4_screenshot.jpg Graphic file (type jpg)
+(Font)              <6> on input line 11.
+ [1
 
-<use Queries/Question_4/Q4_screenshot.jpg>
-(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./skeleton.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 1.
+
+[1])
+\tf@toc=\write3
+\openout3 = `skeleton.toc'.
+
+ [2] (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-Overfull \hbox (179.70901pt too wide) in paragraph at lines 12--17
-[]
- []
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 23.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--17
-
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 31.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 31.
-<Queries/Question_5/Q5_screenshot.jpg, id=2, 395.97937pt x 205.5178pt>
-File: Queries/Question_5/Q5_screenshot.jpg Graphic file (type jpg)
-
-<use Queries/Question_5/Q5_screenshot.jpg>
-Overfull \hbox (50.97841pt too wide) in paragraph at lines 35--36
-[] 
- []
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Queries/Question_4/Q4_sc
-reenshot.jpg>]
-<Queries/Question_6/Q6_screenshot.jpg, id=13, 413.29407pt x 142.28156pt>
-File: Queries/Question_6/Q6_screenshot.jpg Graphic file (type jpg)
-
-<use Queries/Question_6/Q6_screenshot.jpg>
-Overfull \hbox (68.29305pt too wide) in paragraph at lines 37--42
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--42
-
- []
-
-[2 <./Queries/Question_5/Q5_screenshot.jpg> <./Queries/Question_6/Q6_screenshot
-.jpg>]
-<Queries/Question_7/Q7_screenshot.jpg, id=17, 956.07187pt x 155.83218pt>
-File: Queries/Question_7/Q7_screenshot.jpg Graphic file (type jpg)
-
-<use Queries/Question_7/Q7_screenshot.jpg>
-Overfull \hbox (611.06953pt too wide) in paragraph at lines 61--62
-[] 
- []
-
-<Queries/Question_8/Q8_screenshot.jpg, id=18, 969.6225pt x 167.12437pt>
-File: Queries/Question_8/Q8_screenshot.jpg Graphic file (type jpg)
-
-<use Queries/Question_8/Q8_screenshot.jpg>
-Overfull \hbox (624.62013pt too wide) in paragraph at lines 74--75
-[] 
- []
-
-[3 <./Queries/Question_7/Q7_screenshot.jpg> <./Queries/Question_8/Q8_screenshot
-.jpg>]
-<Queries/Question_9/Question_9_screenshot.PNG, id=22, 740.0147pt x 182.93344pt>
-File: Queries/Question_9/Question_9_screenshot.PNG Graphic file (type png)
-<use Queries/Question_9/Question_9_screenshot.PNG>
-Overfull \hbox (395.0129pt too wide) in paragraph at lines 87--88
-[] 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 94.
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
 
-<Queries/Question_10/Question_10_screenshot.PNG, id=24, 444.91219pt x 180.675pt
+<Queries/Question_10/Question_10_screenshot.PNG, id=15, 444.91219pt x 180.675pt
 >
 File: Queries/Question_10/Question_10_screenshot.PNG Graphic file (type png)
  <use Queries/Question_10/Question_10_screenshot.PNG>
-Overfull \hbox (99.91109pt too wide) in paragraph at lines 100--101
+Overfull \hbox (99.91109pt too wide) in paragraph at lines 30--31
 [] 
  []
 
-[4 <./Queries/Question_9/Question_9_screenshot.PNG> <./Queries/Question_10/Ques
-tion_10_screenshot.PNG>]
-<Queries/Question_11/Question_11_screenshot.PNG, id=30, 301.125pt x 184.43906pt
+
+<Queries/Question_11/Question_11_screenshot.PNG, id=17, 301.125pt x 184.43906pt
 >
 File: Queries/Question_11/Question_11_screenshot.PNG Graphic file (type png)
- <use Queries/Question_11/Question_11_screenshot.PNG>
-<Queries/Question_12/Question_12_Screenshot.PNG, id=31, 351.56343pt x 195.73125
+ <use Queries/Question_11/Question_11_screenshot.PNG> [3 <./Queries/Question_10
+/Question_10_screenshot.PNG>]
+<Queries/Question_12/Question_12_Screenshot.PNG, id=24, 351.56343pt x 195.73125
 pt>
 File: Queries/Question_12/Question_12_Screenshot.PNG Graphic file (type png)
  <use Queries/Question_12/Question_12_Screenshot.PNG>
-Overfull \hbox (6.56256pt too wide) in paragraph at lines 125--126
+Overfull \hbox (6.56256pt too wide) in paragraph at lines 59--60
 [] 
  []
 
 
-<Queries/Question_13/Question_13_screenshot.PNG, id=32, 444.91219pt x 182.93344
+<Queries/Question_13/Question_13_screenshot.PNG, id=25, 444.91219pt x 182.93344
 pt>
 File: Queries/Question_13/Question_13_screenshot.PNG Graphic file (type png)
  <use Queries/Question_13/Question_13_screenshot.PNG>
-Overfull \hbox (99.91109pt too wide) in paragraph at lines 127--132
-[]
+Overfull \hbox (99.91109pt too wide) in paragraph at lines 62--63
+[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--132
-
- []
-
-[5 <./Queries/Question_11/Question_11_screenshot.PNG> <./Queries/Question_12/Qu
+[4 <./Queries/Question_11/Question_11_screenshot.PNG> <./Queries/Question_12/Qu
 estion_12_Screenshot.PNG>]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.139 \section*{Question 14_(17)}
-                                 
+l.75 ...on{Description}\section*{Question 14_(17)}
+                                                  
 ? R
 OK, entering \nonstopmode...
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 139.
+(Font)              <14.4> on input line 75.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.139 \section*{Question 14_(17)}
-                                 
+l.75 ...on{Description}\section*{Question 14_(17)}
+                                                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-<Queries/Question_14_(17)/Q14_screenshot.jpg, id=38, 621.82312pt x 158.09062pt>
+<Queries/Question_14_(17)/Q14_screenshot.jpg, id=31, 621.82312pt x 158.09062pt>
 File: Queries/Question_14_(17)/Q14_screenshot.jpg Graphic file (type jpg)
 <use Queries/Question_14_(17)/Q14_screenshot.jpg>
-Overfull \hbox (276.8216pt too wide) in paragraph at lines 151--152
+Overfull \hbox (276.8216pt too wide) in paragraph at lines 89--90
+[] 
+ []
+
+[5 <./Queries/Question_13/Question_13_screenshot.PNG>]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.90 ...on{Description}\section*{Question 15_(18)}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.90 ...on{Description}\section*{Question 15_(18)}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+<Queries/Question_15_(18)/Q15_screenshot.jpg, id=36, 361.35pt x 160.34906pt>
+File: Queries/Question_15_(18)/Q15_screenshot.jpg Graphic file (type jpg)
+
+<use Queries/Question_15_(18)/Q15_screenshot.jpg>
+Overfull \hbox (16.34912pt too wide) in paragraph at lines 92--93
 [] 
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.152 \section*{Question 15_(18)}
-                                 
+l.105 ...n{Description}\section*{Question 16_(19)}
+                                                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.152 \section*{Question 15_(18)}
-                                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-<Queries/Question_15_(18)/Q15_screenshot.jpg, id=39, 361.35pt x 160.34906pt>
-File: Queries/Question_15_(18)/Q15_screenshot.jpg Graphic file (type jpg)
-
-<use Queries/Question_15_(18)/Q15_screenshot.jpg>
-Overfull \hbox (16.34912pt too wide) in paragraph at lines 153--158
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--158
-
- []
-
-[6 <./Queries/Question_13/Question_13_screenshot.PNG> <./Queries/Question_14_(1
-7)/Q14_screenshot.jpg>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.165 \section*{Question 16_(19)}
-                                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.165 \section*{Question 16_(19)}
-                                 
+l.105 ...n{Description}\section*{Question 16_(19)}
+                                                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-<Queries/Question_16_(19)/Q16_screenshot.jpg, id=44, 826.58812pt x 143.78719pt>
+<Queries/Question_16_(19)/Q16_screenshot.jpg, id=37, 826.58812pt x 143.78719pt>
 File: Queries/Question_16_(19)/Q16_screenshot.jpg Graphic file (type jpg)
 <use Queries/Question_16_(19)/Q16_screenshot.jpg>
-Overfull \hbox (481.58609pt too wide) in paragraph at lines 166--171
-[]
+Overfull \hbox (481.58609pt too wide) in paragraph at lines 107--108
+[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--171
-
- []
-
-[7 <./Queries/Question_15_(18)/Q15_screenshot.jpg> <./Queries/Question_16_(19)/
-Q16_screenshot.jpg>]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 187.
+[6 <./Queries/Question_14_(17)/Q14_screenshot.jpg> <./Queries/Question_15_(18)/
+Q15_screenshot.jpg>]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 130.
 
  (/usr/share/texmf-texlive/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 187.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 130.
 
-<Queries/Question_20/Question_20_screenshot.PNG, id=49, 807.015pt x 204.765pt>
+<Queries/Question_20/Question_20_screenshot.PNG, id=42, 807.015pt x 204.765pt>
 File: Queries/Question_20/Question_20_screenshot.PNG Graphic file (type png)
 
 <use Queries/Question_20/Question_20_screenshot.PNG>
-Overfull \hbox (462.01303pt too wide) in paragraph at lines 192--193
+Overfull \hbox (462.01303pt too wide) in paragraph at lines 136--137
 [] 
  []
 
-
-<Queries/Question_21/Question_21_screenshot.PNG, id=50, 775.39688pt x 185.19188
+[7 <./Queries/Question_16_(19)/Q16_screenshot.jpg>]
+<Queries/Question_21/Question_21_screenshot.PNG, id=47, 775.39688pt x 185.19188
 pt>
 File: Queries/Question_21/Question_21_screenshot.PNG Graphic file (type png)
  <use Queries/Question_21/Question_21_screenshot.PNG>
-Overfull \hbox (430.39499pt too wide) in paragraph at lines 205--206
+Overfull \hbox (430.39499pt too wide) in paragraph at lines 151--152
 [] 
  []
 
 [8 <./Queries/Question_20/Question_20_screenshot.PNG>]
-<Queries/Question_22/Q22_screenshot.jpg, id=56, 1014.79124pt x 338.76563pt>
+<Queries/Question_22/Q22_screenshot.jpg, id=52, 1014.79124pt x 338.76563pt>
 File: Queries/Question_22/Q22_screenshot.jpg Graphic file (type jpg)
 
 <use Queries/Question_22/Q22_screenshot.jpg>
-Overfull \hbox (669.78877pt too wide) in paragraph at lines 217--218
+Overfull \hbox (669.78877pt too wide) in paragraph at lines 165--166
 [] 
  []
 
 [9 <./Queries/Question_21/Question_21_screenshot.PNG>]
-<Queries/Question_23/Question_23_screenshot.PNG, id=61, 746.03719pt x 162.6075p
+<Queries/Question_23/Question_23_screenshot.PNG, id=57, 746.03719pt x 162.6075p
 t>
 File: Queries/Question_23/Question_23_screenshot.PNG Graphic file (type png)
  <use Queries/Question_23/Question_23_screenshot.PNG>
-Overfull \hbox (401.03535pt too wide) in paragraph at lines 229--230
+Overfull \hbox (401.03535pt too wide) in paragraph at lines 179--180
 [] 
  []
 
 [10 <./Queries/Question_22/Q22_screenshot.jpg>]
-<Queries/Question_25/Question_25_screenshot.PNG, id=65, 775.39688pt x 157.33781
+<Queries/Question_25/Question_25_screenshot.PNG, id=61, 775.39688pt x 157.33781
 pt>
 File: Queries/Question_25/Question_25_screenshot.PNG Graphic file (type png)
  <use Queries/Question_25/Question_25_screenshot.PNG>
-Overfull \hbox (430.39499pt too wide) in paragraph at lines 256--257
+Overfull \hbox (430.39499pt too wide) in paragraph at lines 209--210
 [] 
  []
 
 [11 <./Queries/Question_23/Question_23_screenshot.PNG>]
-<Queries/Question_26/Q26_screenshot.jpg, id=70, 1014.79124pt x 129.48375pt>
+<Queries/Question_26/Q26_screenshot.jpg, id=66, 1014.79124pt x 129.48375pt>
 File: Queries/Question_26/Q26_screenshot.jpg Graphic file (type jpg)
 
 <use Queries/Question_26/Q26_screenshot.jpg>
-Overfull \hbox (669.78877pt too wide) in paragraph at lines 268--269
+Overfull \hbox (669.78877pt too wide) in paragraph at lines 223--224
 [] 
  []
 
 
-<Queries/Question_27/Question_27_screenshot.PNG, id=71, 765.6103pt x 156.585pt>
+<Queries/Question_27/Question_27_screenshot.PNG, id=67, 765.6103pt x 156.585pt>
 File: Queries/Question_27/Question_27_screenshot.PNG Graphic file (type png)
 <use Queries/Question_27/Question_27_screenshot.PNG>
-Overfull \hbox (420.60843pt too wide) in paragraph at lines 270--275
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 270--275
-
+Overfull \hbox (420.60843pt too wide) in paragraph at lines 226--227
+[] 
  []
 
 [12 <./Queries/Question_25/Question_25_screenshot.PNG> <./Queries/Question_26/Q
-26_screenshot.jpg>]
-<Queries/Question_29/Question_29_screenshot.PNG, id=76, 466.74374pt x 231.11343
+26_screenshot.jpg>] [13 <./Queries/Question_27/Question_27_screenshot.PNG>]
+<Queries/Question_29/Question_29_screenshot.PNG, id=77, 466.74374pt x 231.11343
 pt>
 File: Queries/Question_29/Question_29_screenshot.PNG Graphic file (type png)
  <use Queries/Question_29/Question_29_screenshot.PNG>
-Overfull \hbox (121.7426pt too wide) in paragraph at lines 306--307
+Overfull \hbox (121.7426pt too wide) in paragraph at lines 266--267
 [] 
  []
 
-[13 <./Queries/Question_27/Question_27_screenshot.PNG>]
-<Queries/Question_3/Q3_screenshot.jpg, id=82, 387.69844pt x 134.00063pt>
+<Queries/Question_3/Q3_screenshot.jpg, id=78, 387.69844pt x 134.00063pt>
 File: Queries/Question_3/Q3_screenshot.jpg Graphic file (type jpg)
 
 <use Queries/Question_3/Q3_screenshot.jpg>
-Overfull \hbox (42.69748pt too wide) in paragraph at lines 308--313
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 308--313
-
- []
-
-<Queries/Question_30/Q30_screenshot.jpg, id=83, 1015.54407pt x 167.87718pt>
-File: Queries/Question_30/Q30_screenshot.jpg Graphic file (type jpg)
-
-<use Queries/Question_30/Q30_screenshot.jpg>
-Overfull \hbox (670.5416pt too wide) in paragraph at lines 319--324
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--324
-
+Overfull \hbox (42.69748pt too wide) in paragraph at lines 269--270
+[] 
  []
 
 [14 <./Queries/Question_29/Question_29_screenshot.PNG> <./Queries/Question_3/Q3
 _screenshot.jpg>]
-<Queries/Question_31/Question_31_screenshot.PNG, id=88, 931.22906pt x 139.27031
+<Queries/Question_30/Q30_screenshot.jpg, id=83, 1015.54407pt x 167.87718pt>
+File: Queries/Question_30/Q30_screenshot.jpg Graphic file (type jpg)
+
+<use Queries/Question_30/Q30_screenshot.jpg>
+Overfull \hbox (670.5416pt too wide) in paragraph at lines 282--283
+[] 
+ []
+
+
+<Queries/Question_31/Question_31_screenshot.PNG, id=84, 931.22906pt x 139.27031
 pt>
 File: Queries/Question_31/Question_31_screenshot.PNG Graphic file (type png)
  <use Queries/Question_31/Question_31_screenshot.PNG>
-Overfull \hbox (586.22679pt too wide) in paragraph at lines 331--336
-[]
+Overfull \hbox (586.22679pt too wide) in paragraph at lines 296--297
+[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 331--336
-
- []
-
-[15 <./Queries/Question_30/Q30_screenshot.jpg> <./Queries/Question_31/Question_
-31_screenshot.PNG>]
-<Queries/Question_33/Q33_screenshot.jpg, id=93, 1014.03844pt x 167.12437pt>
+[15 <./Queries/Question_30/Q30_screenshot.jpg>] [16 <./Queries/Question_31/Ques
+tion_31_screenshot.PNG>]
+<Queries/Question_33/Q33_screenshot.jpg, id=92, 1014.03844pt x 167.12437pt>
 File: Queries/Question_33/Q33_screenshot.jpg Graphic file (type jpg)
 
 <use Queries/Question_33/Q33_screenshot.jpg>
-Overfull \hbox (669.03596pt too wide) in paragraph at lines 367--368
+Overfull \hbox (669.03596pt too wide) in paragraph at lines 336--337
 [] 
  []
 
-<Queries/Question_34/Q34_screenshot.jpg, id=94, 822.07124pt x 149.8097pt>
+<Queries/Question_34/Q34_screenshot.jpg, id=93, 822.07124pt x 149.8097pt>
 File: Queries/Question_34/Q34_screenshot.jpg Graphic file (type jpg)
 
 <use Queries/Question_34/Q34_screenshot.jpg>
-Overfull \hbox (477.06923pt too wide) in paragraph at lines 369--374
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 369--374
-
- []
-
-[16 <./Queries/Question_33/Q33_screenshot.jpg>]
-<Queries/Question_35/Question35.PNG, id=98, 904.88063pt x 141.52875pt>
-File: Queries/Question_35/Question35.PNG Graphic file (type png)
-
-<use Queries/Question_35/Question35.PNG>
-Overfull \hbox (559.87843pt too wide) in paragraph at lines 389--390
+Overfull \hbox (477.06923pt too wide) in paragraph at lines 339--340
 [] 
  []
 
-[17 <./Queries/Question_34/Q34_screenshot.jpg> <./Queries/Question_35/Question3
-5.PNG>] (./skeleton.aux) ) 
+[17 <./Queries/Question_33/Q33_screenshot.jpg>]
+<Queries/Question_35/Question35.PNG, id=97, 904.88063pt x 141.52875pt>
+File: Queries/Question_35/Question35.PNG Graphic file (type png)
+
+<use Queries/Question_35/Question35.PNG>
+Overfull \hbox (559.87843pt too wide) in paragraph at lines 362--363
+[] 
+ []
+
+[18 <./Queries/Question_34/Q34_screenshot.jpg>]
+<Queries/Question_4/Q4_screenshot.jpg, id=102, 524.71031pt x 107.65219pt>
+File: Queries/Question_4/Q4_screenshot.jpg Graphic file (type jpg)
+
+<use Queries/Question_4/Q4_screenshot.jpg>
+Overfull \hbox (179.70901pt too wide) in paragraph at lines 365--366
+[] 
+ []
+
+[19 <./Queries/Question_35/Question35.PNG> <./Queries/Question_4/Q4_screenshot.
+jpg>] <Queries/Question_5/Q5_screenshot.jpg, id=107, 395.97937pt x 205.5178pt>
+File: Queries/Question_5/Q5_screenshot.jpg Graphic file (type jpg)
+
+<use Queries/Question_5/Q5_screenshot.jpg>
+Overfull \hbox (50.97841pt too wide) in paragraph at lines 391--392
+[] 
+ []
+
+<Queries/Question_6/Q6_screenshot.jpg, id=108, 413.29407pt x 142.28156pt>
+File: Queries/Question_6/Q6_screenshot.jpg Graphic file (type jpg)
+
+<use Queries/Question_6/Q6_screenshot.jpg>
+Overfull \hbox (68.29305pt too wide) in paragraph at lines 394--395
+[] 
+ []
+
+[20 <./Queries/Question_5/Q5_screenshot.jpg> <./Queries/Question_6/Q6_screensho
+t.jpg>]
+<Queries/Question_7/Q7_screenshot.jpg, id=112, 956.07187pt x 155.83218pt>
+File: Queries/Question_7/Q7_screenshot.jpg Graphic file (type jpg)
+
+<use Queries/Question_7/Q7_screenshot.jpg>
+Overfull \hbox (611.06953pt too wide) in paragraph at lines 421--422
+[] 
+ []
+
+[21 <./Queries/Question_7/Q7_screenshot.jpg>]
+<Queries/Question_8/Q8_screenshot.jpg, id=116, 969.6225pt x 167.12437pt>
+File: Queries/Question_8/Q8_screenshot.jpg Graphic file (type jpg)
+
+<use Queries/Question_8/Q8_screenshot.jpg>
+Overfull \hbox (624.62013pt too wide) in paragraph at lines 436--437
+[] 
+ []
+
+
+<Queries/Question_9/Question_9_screenshot.PNG, id=117, 740.0147pt x 182.93344pt
+>
+File: Queries/Question_9/Question_9_screenshot.PNG Graphic file (type png)
+ <use Queries/Question_9/Question_9_screenshot.PNG>
+Overfull \hbox (395.0129pt too wide) in paragraph at lines 451--452
+[] 
+ []
+
+[22 <./Queries/Question_8/Q8_screenshot.jpg>] [23 <./Queries/Question_9/Questio
+n_9_screenshot.PNG>] (./skeleton.aux) ) 
 Here is how much of TeX's memory you used:
- 2631 strings out of 495061
- 39593 string characters out of 1182621
- 197624 words of memory out of 3000000
- 5779 multiletter control sequences out of 15000+50000
- 8203 words of font info for 29 fonts, out of 3000000 for 9000
+ 2636 strings out of 495061
+ 39644 string characters out of 1182621
+ 175549 words of memory out of 3000000
+ 5781 multiletter control sequences out of 15000+50000
+ 8510 words of font info for 30 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 27i,6n,40p,431b,1463s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.
-pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-t
-exlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb>
-Output written on skeleton.pdf (17 pages, 2237568 bytes).
+ 26i,6n,40p,431b,1465s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on skeleton.pdf (24 pages, 2246003 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
+ 148 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

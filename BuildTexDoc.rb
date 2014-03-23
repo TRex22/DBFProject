@@ -7,7 +7,14 @@ print "\\documentclass[a4paper,10pt]{article}
 \\date{23 March 2014}
 
 \\begin{document}
-\\maketitle"
+\\begin{titlepage}
+\\maketitle
+\\end{titlepage}
+\\tableofcontents{}
+\\newpage
+\\thispagestyle{empty}
+\\mbox{}"
+
 Dir.new("Queries").sort.each do |dir|
   if dir != "." && dir != ".."
     contents_of_dir = Dir.new("Queries/#{dir}").map {|m| m if m != "." && m != ".."}
@@ -15,7 +22,8 @@ Dir.new("Queries").sort.each do |dir|
     contents_of_dir = contents_of_dir.map do |file|
       unless (file.include? "PNG") || (file.include? "jpg")
         source_file = File.read "Queries/#{dir}/#{file}"
-        "\\lstset{
+        " \\subsection{Querie}
+          \\lstset{
             language=SQL,
             breaklines=true
             }
@@ -23,13 +31,15 @@ Dir.new("Queries").sort.each do |dir|
         #{source_file}
         \\end{lstlisting}"
       else
-          "\\includegraphics{Queries/#{dir}/#{file}}"
+          "\\subsection{Querie output}
+           \\includegraphics{Queries/#{dir}/#{file}}"
       end
 
     end
 
     print "\\section*{#{dir.sub! "_", " "}}\n" 
     print "#{contents_of_dir.join "\n"}\n"
+    print "\\subsection{Description}"
   end
 end
 print "\\end{document}"
