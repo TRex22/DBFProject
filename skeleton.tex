@@ -7,7 +7,8 @@
 \date{23 March 2014}
 
 \begin{document}
-\section {Question 4}
+\maketitle
+\section*{Question 4}
 \includegraphics{Queries/Question_4/Q4_screenshot.jpg}
 \lstset{
             language=SQL,
@@ -19,7 +20,7 @@ FROM LGPRODUCT
 WHERE Prod_Base like 'water' AND Prod_Category like 'sealer';
 
         \end{lstlisting}
-\section {Question 5}
+\section*{Question 5}
 \lstset{
             language=SQL,
             breaklines=true
@@ -32,7 +33,7 @@ ORDER BY Emp_Lname, Emp_Fname;
 
         \end{lstlisting}
 \includegraphics{Queries/Question_5/Q5_screenshot.jpg}
-\section {Question 6}
+\section*{Question 6}
 \includegraphics{Queries/Question_6/Q6_screenshot.jpg}
 \lstset{
             language=SQL,
@@ -45,7 +46,7 @@ WHERE Dept_Num = 300 OR BINARY Emp_Title like "CLERK1"
 ORDER BY Emp_Lname, Emp_Fname;
 
         \end{lstlisting}
-\section {Question 7}
+\section*{Question 7}
 \lstset{
             language=SQL,
             breaklines=true
@@ -58,7 +59,7 @@ ORDER BY LGEMPLOYEE.Emp_Num, LGSALARY_HISTORY.Sal_From;
 
         \end{lstlisting}
 \includegraphics{Queries/Question_7/Q7_screenshot.jpg}
-\section {Question 8}
+\section*{Question 8}
 \lstset{
             language=SQL,
             breaklines=true
@@ -71,7 +72,7 @@ ORDER BY LGCUSTOMER.Cust_Province, LGCUSTOMER.Cust_Lname, LGCUSTOMER.Cust_Fname;
 
         \end{lstlisting}
 \includegraphics{Queries/Question_8/Q8_screenshot.jpg}
-\section {Question 9}
+\section*{Question 9}
 \lstset{
             language=SQL,
             breaklines=true
@@ -84,7 +85,7 @@ ORDER BY LGDEPARTMENT.Dept_Name, LGEMPLOYEE.Emp_Title;
 
         \end{lstlisting}
 \includegraphics{Queries/Question_9/Question_9_screenshot.PNG}
-\maketitle\section {Question 10}
+\section*{Question 10}
 \lstset{
             language=SQL,
             breaklines=true
@@ -97,7 +98,7 @@ ORDER BY LGBRAND.Brand_Name;
 
         \end{lstlisting}
 \includegraphics{Queries/Question_10/Question_10_screenshot.PNG}
-\section {Question 11}
+\section*{Question 11}
 \lstset{
             language=SQL,
             breaklines=true
@@ -110,7 +111,7 @@ GROUP BY Prod_Category;
 
         \end{lstlisting}
 \includegraphics{Queries/Question_11/Question_11_screenshot.PNG}
-\section {Question 12}
+\section*{Question 12}
 \lstset{
             language=SQL,
             breaklines=true
@@ -122,7 +123,7 @@ GROUP BY Prod_Base, Prod_Type;
 
         \end{lstlisting}
 \includegraphics{Queries/Question_12/Question_12_Screenshot.PNG}
-\section {Question 13}
+\section*{Question 13}
 \includegraphics{Queries/Question_13/Question_13_screenshot.PNG}
 \lstset{
             language=SQL,
@@ -135,7 +136,7 @@ GROUP BY Brand_ID
 ORDER BY Brand_ID DESC;
 
         \end{lstlisting}
-\section {Question 14_(17)}
+\section*{Question 14_(17)}
 \lstset{
             language=SQL,
             breaklines=true
@@ -148,7 +149,7 @@ ORDER BY LGBRAND.Brand_Name;
 
         \end{lstlisting}
 \includegraphics{Queries/Question_14_(17)/Q14_screenshot.jpg}
-\section {Question 15_(18)}
+\section*{Question 15_(18)}
 \includegraphics{Queries/Question_15_(18)/Q15_screenshot.jpg}
 \lstset{
             language=SQL,
@@ -161,7 +162,7 @@ GROUP BY Dept_Num
 ORDER BY Dept_Num;
 
         \end{lstlisting}
-\section {Question 16_(19)}
+\section*{Question 16_(19)}
 \includegraphics{Queries/Question_16_(19)/Q16_screenshot.jpg}
 \lstset{
             language=SQL,
@@ -175,7 +176,7 @@ GROUP BY LGEMPLOYEE.Emp_Num
 ORDER BY LGSALARY_HISTORY.Sal_Amount;
 
         \end{lstlisting}
-\section {Question 20}
+\section*{Question 20}
 \lstset{
             language=SQL,
             breaklines=true
@@ -189,7 +190,7 @@ ORDER BY SUM(LGINVOICE.Inv_Total) DESC;
 
         \end{lstlisting}
 \includegraphics{Queries/Question_20/Question_20_screenshot.PNG}
-\section {Question 21}
+\section*{Question 21}
 \lstset{
             language=SQL,
             breaklines=true
@@ -202,7 +203,7 @@ ORDER BY LGDEPARTMENT.Dept_Name;
 
         \end{lstlisting}
 \includegraphics{Queries/Question_21/Question_21_screenshot.PNG}
-\section {Question 22}
+\section*{Question 22}
 \lstset{
             language=SQL,
             breaklines=true
@@ -214,7 +215,7 @@ GROUP BY LGSUPPLIES.Vend_ID, LGPRODUCT.Brand_ID
 ORDER BY LGVENDOR.Vend_Name, LGBRAND.Brand_Name;
         \end{lstlisting}
 \includegraphics{Queries/Question_22/Q22_screenshot.jpg}
-\section {Question 23}
+\section*{Question 23}
 \lstset{
             language=SQL,
             breaklines=true
@@ -226,7 +227,7 @@ where LGEMPLOYEE.Emp_Num = LGINVOICE.Employee_ID group by LGEMPLOYEE.Emp_Num
 order by LGEMPLOYEE.Emp_Fname, LGEMPLOYEE.Emp_Lname;
         \end{lstlisting}
 \includegraphics{Queries/Question_23/Question_23_screenshot.PNG}
-\section {Question 24}
+\section*{Question 24}
 \lstset{
             language=SQL,
             breaklines=true
@@ -238,7 +239,7 @@ GROUP BY Brand_ID
 ORDER BY AVG(Prod_Price) DESC
 LIMIT 1;
         \end{lstlisting}
-\section {Question 25}
+\section*{Question 25}
 \lstset{
             language=SQL,
             breaklines=true
@@ -253,7 +254,7 @@ FROM (
 
         \end{lstlisting}
 \includegraphics{Queries/Question_25/Question_25_screenshot.PNG}
-\section {Question 26}
+\section*{Question 26}
 \lstset{
             language=SQL,
             breaklines=true
@@ -265,7 +266,7 @@ WHERE Cust_Lname like 'Doe' AND Inv_Date='2013-03-23';
 
         \end{lstlisting}
 \includegraphics{Queries/Question_26/Q26_screenshot.jpg}
-\section {Question 27}
+\section*{Question 27}
 \includegraphics{Queries/Question_27/Question_27_screenshot.PNG}
 \lstset{
             language=SQL,
@@ -276,7 +277,7 @@ WHERE Cust_Lname like 'Doe' AND Inv_Date='2013-03-23';
 from LGPRODUCT 
 where Prod_Price > 50;
         \end{lstlisting}
-\section {Question 28}
+\section*{Question 28}
 \lstset{
             language=SQL,
             breaklines=true
@@ -288,7 +289,7 @@ WHERE LGEMPLOYEE.Dept_Num=300 AND LGSALARY_HISTORY.Sal_End IS NULL
 ORDER BY LGSALARY_HISTORY.Sal_Amount DESC;
 
         \end{lstlisting}
-\section {Question 29}
+\section*{Question 29}
 \lstset{
             language=SQL,
             breaklines=true
@@ -303,7 +304,7 @@ ORDER BY Emp_Num;
 
         \end{lstlisting}
 \includegraphics{Queries/Question_29/Question_29_screenshot.PNG}
-\section {Question 3}
+\section*{Question 3}
 \includegraphics{Queries/Question_3/Q3_screenshot.jpg}
 \lstset{
             language=SQL,
@@ -314,7 +315,7 @@ ORDER BY Emp_Num;
 FROM LGDEPARTMENT;
 
         \end{lstlisting}
-\section {Question 30}
+\section*{Question 30}
 \includegraphics{Queries/Question_30/Q30_screenshot.jpg}
 \lstset{
             language=SQL,
@@ -326,7 +327,7 @@ FROM LGINVOICE JOIN (LGLINE JOIN (LGPRODUCT JOIN LGBRAND ON LGPRODUCT.Brand_ID=L
 WHERE LGPRODUCT.Prod_Category like 'sealer' OR LGPRODUCT.Prod_Category like 'top coat'
 GROUP BY LGPRODUCT.Brand_ID, LGINVOICE.Inv_Num;
         \end{lstlisting}
-\section {Question 31}
+\section*{Question 31}
 \includegraphics{Queries/Question_31/Question_31_screenshot.PNG}
 \lstset{
             language=SQL,
@@ -339,7 +340,7 @@ where LGBRAND.Brand_Name like 'Coruscant Painters' and LGBRAND.Brand_ID = LGPROD
 and LGLINE.Inv_Num = LGINVOICE.Inv_Num and LGINVOICE.Employee_ID = LGEMPLOYEE.Emp_Num and LGINVOICE.Inv_Date between '2011-11-01' and '2013-12-01' 
 order by LGEMPLOYEE.Emp_Lname;
         \end{lstlisting}
-\section {Question 32}
+\section*{Question 32}
 \lstset{
             language=SQL,
             breaklines=true
@@ -351,7 +352,7 @@ WHERE L1.Employee_ID=83649 AND L2.Employee_ID=83677
 ORDER BY LGCUSTOMER.Cust_Lname, LGCUSTOMER.Cust_Fname;
 
         \end{lstlisting}
-\section {Question 33}
+\section*{Question 33}
 \lstset{
             language=SQL,
             breaklines=true
@@ -364,7 +365,7 @@ GROUP BY LGCUSTOMER.Cust_Code;
 
         \end{lstlisting}
 \includegraphics{Queries/Question_33/Q33_screenshot.jpg}
-\section {Question 34}
+\section*{Question 34}
 \includegraphics{Queries/Question_34/Q34_screenshot.jpg}
 \lstset{
             language=SQL,
@@ -376,7 +377,7 @@ FROM LGBRAND JOIN (LGPRODUCT JOIN LGLINE ON LGPRODUCT.Prod_SKU=LGLINE.Prod_SKU) 
 GROUP BY LGBRAND.Brand_ID;
 
         \end{lstlisting}
-\section {Question 35}
+\section*{Question 35}
 \lstset{
             language=SQL,
             breaklines=true

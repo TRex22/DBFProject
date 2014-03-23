@@ -28,7 +28,7 @@ Dir.new("Queries").sort.each do |dir|
 
     end
 
-    print "\\section {#{dir.sub! "_", " "}}\n" 
+    print "\\section*{#{dir.sub! "_", " "}}\n" 
     print "#{contents_of_dir.join "\n"}\n"
   end
 end
