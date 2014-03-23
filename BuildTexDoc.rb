@@ -13,7 +13,7 @@ print "\\documentclass[a4paper,10pt]{article}
 \\tableofcontents{}
 \\newpage
 \\thispagestyle{empty}
-\\mbox{}"
+\\mbox{}\n"
 
 Dir.new("Queries").sort.each do |dir|
   if dir != "." && dir != ".."
@@ -22,7 +22,7 @@ Dir.new("Queries").sort.each do |dir|
     contents_of_dir = contents_of_dir.map do |file|
       unless (file.include? "PNG") || (file.include? "jpg")
         source_file = File.read "Queries/#{dir}/#{file}"
-        " \\subsection{Querie}
+        " \\subsection{Query}
           \\lstset{
             language=SQL,
             breaklines=true
@@ -31,7 +31,7 @@ Dir.new("Queries").sort.each do |dir|
         #{source_file}
         \\end{lstlisting}"
       else
-          "\\subsection{Querie output}
+          "\\subsection{Query Output}
            \\includegraphics{Queries/#{dir}/#{file}}"
       end
 
@@ -39,7 +39,7 @@ Dir.new("Queries").sort.each do |dir|
 
     print "\\section*{#{dir.sub! "_", " "}}\n" 
     print "#{contents_of_dir.join "\n"}\n"
-    print "\\subsection{Description}"
+    print "\\subsection{Description}\n"
   end
 end
 print "\\end{document}"
